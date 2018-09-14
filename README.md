@@ -151,8 +151,7 @@ _コンバージョン_
 
 ## 提出方法
 フォルダ全てを圧縮(zip形式)してメール送信してください。
-1. まずはBCXPのフォーラムにてチェックを受けてください。
-  [リンク](https://groups.google.com/a/aiesec.jp/forum/#!forum/aj_marco_com)
+1. まずは[BCXPのフォーラム](https://groups.google.com/a/aiesec.jp/forum/#!forum/aj_marco_com)にてチェックを受けてください。
 2. フォーラムチェック確定後、mc_is_com@aiesec.jpに公開の依頼を出してください。
 
 
