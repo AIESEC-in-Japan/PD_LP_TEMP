@@ -1,4 +1,17 @@
+/* 基本的にはこのファイルを編集してください*/
+
 body {
   background-image: url("../img/body-bg.jpg");
   /*body-bg.jpgという名前で背景画像を登録してください。*/
+}
+
+.banner-area{
+  background-color: #037ef3;
+  /* 上のbackground-color: blue;をコメントアウトして、した以下で背景を設定しましょう。 */
+  background-image: url("/img/examples.png");
+}
+
+.navbar{
+  background-color: #037ef3;
+  /*ここでnavの色を指定します。*/
 }
