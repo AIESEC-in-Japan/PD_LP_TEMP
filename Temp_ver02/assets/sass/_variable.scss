@@ -1,0 +1,230 @@
+/* ===================================================================
+
+setting
+
+=================================================================== */
+// フォント //
+%font2{
+  font-family:'Lato','Allerta Stencil', sans-serif;
+}
+
+// テキストと背景の色 //
+$back:#f1f1f1;
+$text:#333333;
+
+// よく使うソーシャルサイト //
+$facebook:#3B5998;
+$hatena:#2C6EBD;
+$twitter:#55ACEE;
+$google:#CC3732;
+$poket:#DC3D50;
+$line:#00C300;
+
+// その他のソーシャルサイト //
+$codepen:#000000;
+$github:#171515;
+$tambler:#44546B;
+$instaglum:#3F729B;
+$linkedin:#0077B5;
+$vimeo:#1AB7EA;
+$vine:#00B489;
+$spotify:#84BD00;
+$rss:#e0812a;
+$blogger:#F57D00;
+$mixi:#E0C074;
+$youtube:#CD201F;
+$pintalest:#CC2127;
+$flicker:#ff0084;
+
+// サービス系 //
+$bitbacket:#003366;
+$peypal:#336699;
+$wordpress:#21759b;
+$skype:#00AFF0;
+$feedly:#33b051;
+$evernote:#6FB536;
+
+// ソフトウェア系 //
+$sourcetree:#1F5081;
+$windows:#00bcf2;
+$sass:#CF649A;
+$gulp:#E94C4F;
+$git:#F03C2E;
+$html5:#F14A29;
+$firefox:#E66000;
+$grunt:#fba919;
+$android:#A4C639;
+
+//AIESEC
+$aiesec:#037ef3;
+
+//図形//
+/*三角形*/
+#triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid #81C7D4;
+}
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid #81C7D4;
+}
+
+#triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-bottom: 25px solid transparent;
+	border-right: 50px solid #81C7D4;
+}
+/* 平行四辺形 */
+#parallelogram {
+	width: 50px;
+	height: 100px;
+	-webkit-transform: skew(20deg);
+	   -moz-transform: skew(20deg);
+	     -o-transform: skew(20deg);
+	background: #81C7D4;
+}
+/* ペンタゴン */
+#pentagon {
+    position: relative;
+    width: 54px;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: #81C7D4 transparent;
+}
+#pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent #81C7D4;
+}
+/* 六角ヘキサゴン */
+#hexagon {
+	width: 100px;
+	height: 55px;
+	background: #81C7D4;
+	position: relative;
+}
+#hexagon:before {
+	content: "";
+	position: absolute;
+	top: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #81C7D4;
+}
+#hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 25px solid #81C7D4;
+}
+
+
+/* ひし形 */
+#diamond {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom-color: #81C7D4;
+	position: relative;
+	top: -50px;
+}
+#diamond:after {
+	content: '';
+	position: absolute;
+	left: -50px;
+	top: 50px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top-color: #81C7D4;
+}
+
+/* ひし形（鋭） */
+#diamond-narrow {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 70px solid #81C7D4;
+	position: relative;
+	top: -50px;
+}
+#diamond-narrow:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 70px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid #81C7D4;
+}
+/* 卵型 */
+#egg {
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #81C7D4;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+/* TVスクリーン */
+#tv {
+  position: relative;
+  width: 200px;
+  height: 150px;
+  margin: 20px 0;
+  background: #81C7D4;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+#tv:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+
+#diamond-shield {
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-bottom: 20px solid #81C7D4;
+	position: relative;
+	top: -50px;
+}
+#diamond-shield:after {
+	content: '';
+	position: absolute;
+	left: -50px; top: 20px;
+	width: 0;
+	height: 0;
+	border: 50px solid transparent;
+	border-top: 70px solid #81C7D4;
+}

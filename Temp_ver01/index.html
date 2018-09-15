@@ -36,26 +36,29 @@ Google Font
 </head>
 
 <body>
-  <div class="main-wrapper-first">
-    <header class="site-header">
-      <div class="container">
-        <div class="header-wrap">
-          <div class="header-top d-flex justify-content-between align-items-center">
-            <div class="logo">
-              <a href="index.html"><img src="img/logo.png" alt=""></a>
-            </div>
-            <div class="main-menubar d-flex align-items-center">
-              <nav class="hide">
-                <a href="index.html">Home</a>
-                <a href="generic.html">Generic</a>
-                <a href="elements.html">Elements</a>
-              </nav>
-              <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
-            </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
+    <div class="container">
+      <div class="navbar-translate">
+        <div class="header-top d-flex justify-content-between align-items-center">
+          <div class="logo">
+            <!--  ここにロゴを設定しましょう。-->
+            <a href="index.html"><img src="img/logo.png" alt=""></a>
           </div>
-        </div>
+        <!-- <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-bar top-bar"></span> <span class="navbar-toggler-bar middle-bar"></span> <span class="navbar-toggler-bar bottom-bar"></span> </button> -->
       </div>
-    </header>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+              <a class="nav-link" href="#speakers" onclick="scrollToDownload()">
+                <p>SPEAKERS</p>
+              </a>
+            </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End Navbar -->
+
+  <div class="main-wrapper-first">
     <div class="banner-area">
       <div class="container">
         <div class="row justify-content-center height align-items-center">
@@ -406,13 +409,14 @@ Google Font
   <!--
 JavaScripts
 ========================== -->
-  <script src="js/vendor/jquery-2.2.4.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="js/vendor/bootstrap.min.js"></script>
-  <script src="js/jquery.ajaxchimp.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.nice-select.min.js"></script>
-  <script src="js/main.js"></script>
+<script src="js/vendor/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 
 </html>

@@ -1839,8 +1839,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-top {
-  padding: 30px 0;
-  position: absolute;
+  /* padding: 30px 0;
+  position: absolute; */
   top: 0;
   left: 0;
   width: 100%;

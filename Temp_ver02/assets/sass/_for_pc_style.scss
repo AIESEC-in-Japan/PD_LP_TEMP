@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+
+	.header{
+		&__title{
+			&-concept{
+				font-size: 100px;
+				font-weight: 1000;
+				transform: rotate(-5deg);
+				font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+			}
+		}
+	}
+
+	.concept{
+		&__message{
+			&-text{
+				 padding: 15vh;
+			}
+		}
+	}
+.for_mobile{
+	display: none;
+}
+
+
+
+}

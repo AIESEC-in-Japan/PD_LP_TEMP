@@ -1,0 +1,227 @@
+//for_all_section
+.box {
+   width: 5em;
+   height: 5em;
+   background: linear-gradient(135deg, #3cdddd, #ff1ac6);
+   transform: translateX(var(--tx)) rotate(var(--r));
+   transition: transform .1s linear;
+   will-change: transform;
+}
+
+.container{
+	text-align: center;
+
+}
+
+.gro_btn{
+  display: block;
+  padding: 1em 3.2em;
+  border-radius: 1.6em;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 5px 20px rgba(0, 63, 255, .5);
+  background: linear-gradient(-45deg, rgba(87, 225, 181, 1) 0%, rgba(0, 63, 255, 1) 100%);
+
+  // background-size: 800% 800%;
+  //
+  // -webkit-animation: AnimationName 10s ease infinite;
+  // -moz-animation: AnimationName 10s ease infinite;
+  // animation: AnimationName 10s ease infinite;
+  //
+  // @-webkit-keyframes AnimationName {
+  //     0%{background-position:0% 5%}
+  //     50%{background-position:100% 96%}
+  //     100%{background-position:0% 5%}
+  // }
+  // @-moz-keyframes AnimationName {
+  //     0%{background-position:0% 5%}
+  //     50%{background-position:100% 96%}
+  //     100%{background-position:0% 5%}
+  // }
+  // @keyframes AnimationName {
+  //     0%{background-position:0% 5%}
+  //     50%{background-position:100% 96%}
+  //     100%{background-position:0% 5%}
+  // };
+}
+
+//section_share
+.section{
+	&_title{
+		margin: 20px auto;
+		color: #ACB6E5;//非対応のブラウザでの文字色を設定
+		background: url(../img/gradation-text.png);
+		  -webkit-background-clip: text;//テキストでくり抜く
+		  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+      &-sub{
+        font-size: 15vw;
+      }
+	}
+}
+
+//button
+.application_button{
+  font-size: 35px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #c1e1ff, #037ef3, #30c39e);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  };
+}
+
+
+//header_section
+.header {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+	&__info{
+		margin: 20px auto;
+	}
+	&__box{
+		border: 10px solid #fff;
+		padding: 40px;
+	}
+	&__title{
+
+		&-week{
+			margin: auto;
+				font-size: 15px;
+				transform: rotate(-90deg);
+				display: inline-block;
+		}
+    // &-small{
+    //   font-size: 5px;
+    // }
+	}
+}
+
+.concept{
+	&__message{
+			text-align: center;
+      background: linear-gradient(230deg, #037ef3, #30c39e, #ffc845, #ef4573);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      }
+      @-moz-keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      }
+      @keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      };
+
+  		&-text{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+  		}
+	}
+}
+
+
+//
+.speaker{
+  &__profile{
+    &-copy{
+      margin-top: 20px;
+    }
+    &-rolle{
+      font-size: 17px;
+      font-weight: 300;margin-bottom: 20px;
+      margin-top: 0;
+    }
+    &-conpany{
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+    &-card{
+      text-align: justify;
+    }
+  }
+
+}
+
+//contents
+.contents{
+  &__detail{
+    &-name{
+      margin: 20px auto;
+      font-size: 20px;
+      font-weight: 400;
+      color: #aaa;
+    }
+    &-border{
+      height: 3px;
+      // background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #69d2e7, #a7dbd8, #e0e4cc, #f38630, #fa6900);
+      // background-size: 10px 3px, 100% 3px;
+      background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%, #fff 100%), linear-gradient(90deg, #e55d87, #5fc3e4);
+      background-size: 10px 1px, 100% 1px;
+      border: none;
+    }
+  }
+  &__container{
+    margin-bottom: 20px;
+  }
+}
+
+//about
+.about{
+  &__base{
+    text-align: center;
+    // margin: auto;
+  }
+  &__card{
+    margin: auto;
+  }
+}
+
+
+//footer
+.footer{
+	text-align: center;
+
+	&__list{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	}
+
+}
