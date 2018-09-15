@@ -2103,6 +2103,12 @@ body:after {
 .vison-text{
   text-align: center;
 }
+.section-description{
+  text-align: center;
+}
+.product-about{
+  margin-bottom: 20px;
+}
 
 .featured-area {
   background: #fff;
