@@ -2148,6 +2148,10 @@ body:after {
   width: 72%;
 }
 
+.text-uppercase{
+  font-weight: bold;
+}
+
 @media (max-width: 991px) {
   .single-feature .desc {
     width: 100%;
