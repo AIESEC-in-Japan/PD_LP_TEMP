@@ -112,7 +112,7 @@ _コンバージョン_
   - 確認はここから
   - https://aiesec-in-japan.github.io/PD_LP_TEMP//Temp_ver01/
   - ダウンロードはこちらから
-  - 未設定
+  - https://drive.google.com/open?id=1OuDug-d6WzBb9s4fmlwguOWJLfD-tUK0
 - temp02
   - 確認はここから
   - 未公開
@@ -166,6 +166,7 @@ _コンバージョン_
 ## 編集箇所
 基本的には `index.html` というファイルを編集します。  
 その中でコメントで細かい説明を書いているので、その指示にしたがってください。
+スタイリングを変更する際は`style.css`に記述をして行ってください。
 
 ## 提出方法
 フォルダ全てを圧縮(zip形式)してメール送信してください。
