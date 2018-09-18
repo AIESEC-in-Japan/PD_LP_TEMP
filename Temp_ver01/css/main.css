@@ -6,6 +6,11 @@
 /* =================================== */
 /*  Basic Style
 /* =================================== */
+.apply-btn{
+  /* margin-left: auto; */
+  text-align: center;
+}
+
 ::-webkit-input-placeholder {
   /* WebKit, Blink, Edge */
   color: #777777;
