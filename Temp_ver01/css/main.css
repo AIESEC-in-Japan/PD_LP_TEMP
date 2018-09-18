@@ -2105,6 +2105,8 @@ body:after {
 }
 .section-description{
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .product-about{
   margin-bottom: 20px;

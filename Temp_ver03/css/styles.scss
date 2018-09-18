@@ -1,0 +1,23 @@
+header {
+  height: 64px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
+
+  .header_logo {
+    float: left;
+    margin: left:40px;
+
+    img {
+      width: 100px;
+    }
+  }
+
+  .header_nav {
+    float: right;
+  }
+}
