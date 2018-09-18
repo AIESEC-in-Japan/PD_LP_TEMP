@@ -912,11 +912,11 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid transparent;
 }
 
-.genric-btn.success:hover {
+/* .genric-btn.success:hover {
   color: #f09359;
   border: 1px solid #f09359;
   background: #fff;
-}
+} */
 
 .genric-btn.success-border {
   color: #f09359;
@@ -1923,6 +1923,10 @@ nav {
   }
   .nav-on-sp {
     display: block;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    z-index: 1000;
   }
 }
 
