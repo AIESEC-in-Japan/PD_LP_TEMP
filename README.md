@@ -125,7 +125,7 @@ _コンバージョン_
   - https://aiesec-in-japan.github.io/PD_LP_TEMP//Temp_ver02/
   - ダウンロードはこちらから
   - https://drive.google.com/open?id=1fL687kdIWyn9PBzX6jv1Dhj0rvA0MbFV
-こちらはYSFのLPの中身を変えただけです。  
+こちらは[YSFのLP](ttps://aiesec-in-japan.github.io/YSF_LP_2018_Production/)の中身を変えただけです。  
 少し自分でカスタマイズする必要があるかもしれません。  
 上級者向けです。
 
